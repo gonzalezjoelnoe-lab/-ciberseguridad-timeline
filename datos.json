@@ -1,0 +1,134 @@
+{
+  "title": {
+    "media": {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6f/IBM_System%2F360_Mainframe.jpg/1280px-IBM_System%2F360_Mainframe.jpg",
+      "caption": "Evolución de la Ciberseguridad"
+    },
+    "text": {
+      "headline": "Evolución Histórica de la Ciberseguridad (1969-2024)",
+      "text": "Un viaje interactivo a través de los hitos más importantes que transformaron la seguridad digital mundial"
+    }
+  },
+  "events": [
+    {
+      "media": {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b9/Arpanet_1969.png/1024px-Arpanet_1969.png"
+      },
+      "start_date": {
+        "year": 1969
+      },
+      "text": {
+        "headline": "1969: Nacimiento de ARPANET",
+        "text": "Se establece la primera conexión entre computadoras en la Universidad de California. Nace la red que se convertiría en Internet. Comenzaría la era de la seguridad digital."
+      }
+    },
+    {
+      "media": {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8f/DES_Structure.svg/1024px-DES_Structure.svg.png"
+      },
+      "start_date": {
+        "year": 1977
+      },
+      "text": {
+        "headline": "1977: Creación de DES",
+        "text": "Se adopta el Data Encryption Standard como estándar oficial de criptografía. Revolucionó la protección de datos y sentó bases para la criptografía moderna. Más de 40 años de uso exitoso."
+      }
+    },
+    {
+      "media": {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7c/Virus_icon.svg/1024px-Virus_icon.svg.png"
+      },
+      "start_date": {
+        "year": 1988
+      },
+      "text": {
+        "headline": "1988: Morris Worm - Primera Crisis",
+        "text": "El gusano Morris infecta más de 6,000 computadoras del ARPANET en solo horas. Primer ataque masivo de malware. Despierta conciencia global sobre amenazas cibernéticas. Costo estimado: $100 millones."
+      }
+    },
+    {
+      "media": {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/ba/Www.svg/1024px-Www.svg.png"
+      },
+      "start_date": {
+        "year": 1991
+      },
+      "text": {
+        "headline": "1991: Tim Berners-Lee - World Wide Web",
+        "text": "Se lanza el navegador Mosaic. Comienza la era del comercio electrónico. Surge la necesidad urgente de cifrado en tránsito. Nace la importancia de SSL/TLS para proteger transacciones."
+      }
+    },
+    {
+      "media": {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e7/Padlock.svg/1024px-Padlock.svg.png"
+      },
+      "start_date": {
+        "year": 1995
+      },
+      "text": {
+        "headline": "1995: Adopción de SSL/TLS",
+        "text": "Netscape implementa SSL (Secure Sockets Layer). Permite transacciones seguras en línea. Amazon y eBay comienzan sus operaciones con cifrado. Era dorada del e-commerce seguro."
+      }
+    },
+    {
+      "media": {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2f/Chain_link_icon.svg/1024px-Chain_link_icon.svg.png"
+      },
+      "start_date": {
+        "year": 2000
+      },
+      "text": {
+        "headline": "2000: Ataques DDoS Masivos",
+        "text": "Ataques contra Yahoo, Amazon y otros gigantes. Primeros ataques coordinados a escala masiva. Pérdidas de $1.7 billones. Gobiernos declaran guerra contra el cibercrimen."
+      }
+    },
+    {
+      "media": {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2b/Data_center.jpg/1280px-Data_center.jpg"
+      },
+      "start_date": {
+        "year": 2011
+      },
+      "text": {
+        "headline": "2011: Era de Breaches Masivos",
+        "text": "Más de 100 millones de registros comprometidos en múltiples incidentes. Comienzan regulaciones como GDPR. Empresas pierden miles de millones. Nace la conciencia sobre privacidad de datos."
+      }
+    },
+    {
+      "media": {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6d/Ransomware.svg/1024px-Ransomware.svg.png"
+      },
+      "start_date": {
+        "year": 2017
+      },
+      "text": {
+        "headline": "2017: Era del Ransomware",
+        "text": "Ataque WannaCry infecta 200,000 computadoras en 150 países. Afecta hospitales y gobiernos. Pérdidas estimadas en $4 billones. Ransomware se convierte en arma de ciberterrorismo."
+      }
+    },
+    {
+      "media": {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3c/Cloud_icon.svg/1024px-Cloud_icon.svg.png"
+      },
+      "start_date": {
+        "year": 2020
+      },
+      "text": {
+        "headline": "2020: Pandemia y Seguridad Remota",
+        "text": "Cambio abrupto al trabajo remoto global. Explosión de ataques a infraestructuras VPN. Nuevas vulnerabilidades emergen. Empresas invierten masivamente en ciberseguridad. Presupuestos se duplican."
+      }
+    },
+    {
+      "media": {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/04/ChatGPT.svg/1024px-ChatGPT.svg.png"
+      },
+      "start_date": {
+        "year": 2023
+      },
+      "text": {
+        "headline": "2023: IA en Ciberseguridad",
+        "text": "Inteligencia Artificial transforma ofensa y defensa. ChatGPT y modelos de IA se usan para crear malware sofisticado. También usados para detectar anomalías. Era de la ciberseguridad inteligente comienza."
+      }
+    }
+  ]
+}

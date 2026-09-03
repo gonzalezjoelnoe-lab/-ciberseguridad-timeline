@@ -1,0 +1,290 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Evolución Histórica de la Ciberseguridad</title>
+    <link rel="stylesheet" href="styles.css">
+    <!-- Timeline.js de Knight Lab -->
+    <link title="timeline-styles" rel="stylesheet" 
+          href="https://cdn.knightlab.com/libs/timeline3/latest/css/timeline.css">
+    <script src="https://cdn.knightlab.com/libs/timeline3/latest/js/timeline.js"></script>
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700;900&display=swap" rel="stylesheet">
+    <!-- Font Awesome para iconos -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <!-- HEADER CON ANIMACIÓN -->
+    <header class="hero-header">
+        <div class="hero-content">
+            <div class="hero-icon">
+                <i class="fas fa-shield-alt"></i>
+            </div>
+            <h1 class="titulo-principal">Evolución Histórica de la Ciberseguridad</h1>
+            <p class="subtitulo">Desde 1969 hasta 2024: Los hitos que transformaron la seguridad digital</p>
+            <div class="decorative-line"></div>
+        </div>
+        <div class="hero-background"></div>
+    </header>
+
+    <!-- CONTENEDOR PRINCIPAL -->
+    <main class="main-container">
+        
+        <!-- SECCIÓN 1: LÍNEA DEL TIEMPO INTERACTIVA -->
+        <section class="timeline-section">
+            <div class="section-header">
+                <h2><i class="fas fa-history"></i> Línea del Tiempo Interactiva</h2>
+                <p>Haz clic en cada evento para ver más detalles</p>
+            </div>
+            <div id="timeline-embed" class="timeline-embed"></div>
+        </section>
+
+        <!-- SECCIÓN 2: DATOS CLAVE POR ERA -->
+        <section class="eras-section">
+            <div class="section-header">
+                <h2><i class="fas fa-chart-line"></i> Datos Clave por Era</h2>
+                <p>Evolución de amenazas y soluciones en cada período</p>
+            </div>
+
+            <div class="eras-grid">
+                <!-- ERA 1960s-1970s -->
+                <div class="era-card era-1">
+                    <div class="era-header">
+                        <span class="era-year">1960s-1970s</span>
+                        <span class="era-tag">Inicio Digital</span>
+                    </div>
+                    <div class="era-icon">
+                        <i class="fas fa-computer"></i>
+                    </div>
+                    <h3>Nacimiento de la Ciberseguridad</h3>
+                    <ul class="era-items">
+                        <li><strong>Evento:</strong> Primeras redes y ARPANET</li>
+                        <li><strong>Amenaza:</strong> Acceso no autorizado</li>
+                        <li><strong>Solución:</strong> Primeros firewalls</li>
+                        <li><strong>Impacto:</strong> Concepto de seguridad</li>
+                    </ul>
+                    <div class="era-stats">
+                        <span>10 equipos conectados</span>
+                    </div>
+                </div>
+
+                <!-- ERA 1980s -->
+                <div class="era-card era-2">
+                    <div class="era-header">
+                        <span class="era-year">1980s</span>
+                        <span class="era-tag">Virus Emergentes</span>
+                    </div>
+                    <div class="era-icon">
+                        <i class="fas fa-bug"></i>
+                    </div>
+                    <h3>Era de los Virus</h3>
+                    <ul class="era-items">
+                        <li><strong>Evento:</strong> Morris Worm 1988</li>
+                        <li><strong>Amenaza:</strong> Malware y gusanos</li>
+                        <li><strong>Solución:</strong> Antivirus</li>
+                        <li><strong>Impacto:</strong> Primeros ataques masivos</li>
+                    </ul>
+                    <div class="era-stats">
+                        <span>+6,000 equipos afectados</span>
+                    </div>
+                </div>
+
+                <!-- ERA 1990s -->
+                <div class="era-card era-3">
+                    <div class="era-header">
+                        <span class="era-year">1990s</span>
+                        <span class="era-tag">Internet Comercial</span>
+                    </div>
+                    <div class="era-icon">
+                        <i class="fas fa-globe"></i>
+                    </div>
+                    <h3>Era del Comercio Electrónico</h3>
+                    <ul class="era-items">
+                        <li><strong>Evento:</strong> Adopción de SSL/TLS</li>
+                        <li><strong>Amenaza:</strong> Intercepción de datos</li>
+                        <li><strong>Solución:</strong> Cifrado en tránsito</li>
+                        <li><strong>Impacto:</strong> E-commerce seguro</li>
+                    </ul>
+                    <div class="era-stats">
+                        <span>Primeras transacciones seguras</span>
+                    </div>
+                </div>
+
+                <!-- ERA 2000s -->
+                <div class="era-card era-4">
+                    <div class="era-header">
+                        <span class="era-year">2000s</span>
+                        <span class="era-tag">Ataques Organizados</span>
+                    </div>
+                    <div class="era-icon">
+                        <i class="fas fa-network-wired"></i>
+                    </div>
+                    <h3>Era de Ataques Masivos</h3>
+                    <ul class="era-items">
+                        <li><strong>Evento:</strong> Ataques DDoS masivos</li>
+                        <li><strong>Amenaza:</strong> Ciberataques coordinados</li>
+                        <li><strong>Solución:</strong> Sistemas de detección (IDS)</li>
+                        <li><strong>Impacto:</strong> Seguridad nacional</li>
+                    </ul>
+                    <div class="era-stats">
+                        <span>Breaches de millones de registros</span>
+                    </div>
+                </div>
+
+                <!-- ERA 2010s -->
+                <div class="era-card era-5">
+                    <div class="era-header">
+                        <span class="era-year">2010s</span>
+                        <span class="era-tag">Big Data</span>
+                    </div>
+                    <div class="era-icon">
+                        <i class="fas fa-cloud"></i>
+                    </div>
+                    <h3>Era de la Nube y Datos</h3>
+                    <ul class="era-items">
+                        <li><strong>Evento:</strong> Adopción masiva de Cloud</li>
+                        <li><strong>Amenaza:</strong> Fugas de datos personales</li>
+                        <li><strong>Solución:</strong> Encriptación en nube</li>
+                        <li><strong>Impacto:</strong> GDPR y regulaciones</li>
+                    </ul>
+                    <div class="era-stats">
+                        <span>Breach de 2.2 billones registros</span>
+                    </div>
+                </div>
+
+                <!-- ERA 2020s -->
+                <div class="era-card era-6">
+                    <div class="era-header">
+                        <span class="era-year">2020s</span>
+                        <span class="era-tag">IA y Zero Trust</span>
+                    </div>
+                    <div class="era-icon">
+                        <i class="fas fa-robot"></i>
+                    </div>
+                    <h3>Era de IA y Confianza Cero</h3>
+                    <ul class="era-items">
+                        <li><strong>Evento:</strong> IA en ciberseguridad</li>
+                        <li><strong>Amenaza:</strong> Ataques con IA</li>
+                        <li><strong>Solución:</strong> Machine Learning defensivo</li>
+                        <li><strong>Impacto:</strong> Seguridad predictiva</li>
+                    </ul>
+                    <div class="era-stats">
+                        <span>+50% ransomware con IA</span>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- SECCIÓN 3: ESTADÍSTICAS Y NÚMEROS -->
+        <section class="stats-section">
+            <div class="section-header">
+                <h2><i class="fas fa-chart-bar"></i> Números que Importan</h2>
+                <p>Datos actuales sobre ciberseguridad en 2024</p>
+            </div>
+
+            <div class="stats-grid">
+                <div class="stat-box">
+                    <div class="stat-number">$10.5T</div>
+                    <div class="stat-label">Costo anual de cibercrimen</div>
+                    <div class="stat-icon"><i class="fas fa-dollar-sign"></i></div>
+                </div>
+
+                <div class="stat-box">
+                    <div class="stat-number">72%</div>
+                    <div class="stat-label">Empresas con brechas en 2024</div>
+                    <div class="stat-icon"><i class="fas fa-exclamation-triangle"></i></div>
+                </div>
+
+                <div class="stat-box">
+                    <div class="stat-number">11 seg</div>
+                    <div class="stat-label">Tiempo promedio de breach</div>
+                    <div class="stat-icon"><i class="fas fa-hourglass-end"></i></div>
+                </div>
+
+                <div class="stat-box">
+                    <div class="stat-number">45%</div>
+                    <div class="stat-label">Ataques originados internamente</div>
+                    <div class="stat-icon"><i class="fas fa-user-secret"></i></div>
+                </div>
+            </div>
+        </section>
+
+        <!-- SECCIÓN 4: LLAMADO A LA ACCIÓN -->
+        <section class="cta-section">
+            <div class="cta-content">
+                <h2>¿Cómo Protegerse?</h2>
+                <p>Estrategias clave para la seguridad digital en 2024</p>
+                
+                <div class="cta-grid">
+                    <div class="cta-card">
+                        <i class="fas fa-lock"></i>
+                        <h4>Contraseñas Fuertes</h4>
+                        <p>Mínimo 12 caracteres con mayúsculas, minúsculas, números y símbolos</p>
+                    </div>
+
+                    <div class="cta-card">
+                        <i class="fas fa-mobile-alt"></i>
+                        <h4>2FA Siempre</h4>
+                        <p>Autenticación de dos factores en todas tus cuentas importantes</p>
+                    </div>
+
+                    <div class="cta-card">
+                        <i class="fas fa-shield-virus"></i>
+                        <h4>Software Actualizado</h4>
+                        <p>Mantén todos tus sistemas con los últimos parches de seguridad</p>
+                    </div>
+
+                    <div class="cta-card">
+                        <i class="fas fa-graduation-cap"></i>
+                        <h4>Capacitación</h4>
+                        <p>Edúcate constantemente sobre amenazas y buenas prácticas</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- FOOTER -->
+    <footer class="footer">
+        <div class="footer-content">
+            <p>&copy; 2024 Actividad de Ciberseguridad | Instituto Tecnológico</p>
+            <p>Línea del Tiempo Interactiva - Fundamentos de Ciberseguridad</p>
+            <div class="footer-badges">
+                <span class="badge">HTML5</span>
+                <span class="badge">CSS3</span>
+                <span class="badge">JavaScript</span>
+                <span class="badge">Timeline.js</span>
+            </div>
+        </div>
+    </footer>
+
+    <!-- SCRIPT PARA INICIALIZAR TIMELINE.JS -->
+    <script>
+        // Inicializar la línea del tiempo
+        var options = {
+            timenav_position: "bottom",
+            default_bg_color: {r: 255, g: 255, b: 255},
+            font_color: {r: 51, g: 51, b: 51}
+        };
+        new TL.Timeline('timeline-embed', 'datos.json', options);
+
+        // Animación de números en estadísticas
+        const observerOptions = {
+            threshold: 0.5
+        };
+
+        const observer = new IntersectionObserver((entries) => {
+            entries.forEach(entry => {
+                if (entry.isIntersecting) {
+                    entry.target.classList.add('animate-in');
+                }
+            });
+        }, observerOptions);
+
+        document.querySelectorAll('.stat-box').forEach(box => {
+            observer.observe(box);
+        });
+    </script>
+</body>
+</html>
