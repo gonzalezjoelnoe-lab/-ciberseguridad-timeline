@@ -1,7 +1,7 @@
 {
   "title": {
     "media": {
-      "url": "https://commons.wikimedia.org/wiki/Special:FilePath/IBM_System360_Mainframe.jpg",
+      "url": "https://commons.wikimedia.org/wiki/Special:FilePath/IBM_System360_Mainframe.jpg?width=800",
       "caption": "Evolución de la Ciberseguridad"
     },
     "text": {
@@ -11,7 +11,7 @@
   },
   "events": [
     {
-      "media": { "url": "https://commons.wikimedia.org/wiki/Special:FilePath/A_sketch_of_the_ARPANET_in_December_1969.png" },
+      "media": { "url": "https://commons.wikimedia.org/wiki/Special:FilePath/A_sketch_of_the_ARPANET_in_December_1969.png?width=800" },
       "start_date": { "year": 1969 },
       "text": {
         "headline": "1969: Nacimiento de ARPANET",
@@ -19,7 +19,7 @@
       }
     },
     {
-      "media": { "url": "https://commons.wikimedia.org/wiki/Special:FilePath/DES-main-network.png" },
+      "media": { "url": "https://commons.wikimedia.org/wiki/Special:FilePath/DES-main-network.png?width=800" },
       "start_date": { "year": 1977 },
       "text": {
         "headline": "1977: Creación de DES",
@@ -27,7 +27,7 @@
       }
     },
     {
-      "media": { "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Morris_Worm.jpg" },
+      "media": { "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Morris_Worm.jpg?width=800" },
       "start_date": { "year": 1988 },
       "text": {
         "headline": "1988: Morris Worm - Primera Crisis",
@@ -35,7 +35,7 @@
       }
     },
     {
-      "media": { "url": "https://commons.wikimedia.org/wiki/Special:FilePath/NCSA_Mosaic_Browser_Screenshot.png" },
+      "media": { "url": "https://commons.wikimedia.org/wiki/Special:FilePath/NCSA_Mosaic_Browser_Screenshot.png?width=800" },
       "start_date": { "year": 1991 },
       "text": {
         "headline": "1991: Tim Berners-Lee - World Wide Web",
@@ -43,7 +43,7 @@
       }
     },
     {
-      "media": { "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Padlock.svg" },
+      "media": { "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Padlock.svg?width=800" },
       "start_date": { "year": 1995 },
       "text": {
         "headline": "1995: Adopción de SSL/TLS",
@@ -51,7 +51,7 @@
       }
     },
     {
-      "media": { "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Stachledraht_DDos_Attack.svg" },
+      "media": { "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Stachledraht_DDos_Attack.svg?width=800" },
       "start_date": { "year": 2000 },
       "text": {
         "headline": "2000: Ataques DDoS Masivos",
@@ -59,7 +59,7 @@
       }
     },
     {
-      "media": { "url": "https://commons.wikimedia.org/wiki/Special:FilePath/BalticServers_data_center.jpg" },
+      "media": { "url": "https://commons.wikimedia.org/wiki/Special:FilePath/BalticServers_data_center.jpg?width=800" },
       "start_date": { "year": 2011 },
       "text": {
         "headline": "2011: Era de Breaches Masivos",
@@ -67,7 +67,7 @@
       }
     },
     {
-      "media": { "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Countries_initially_affected_in_WannaCry_ransomware_attack.png" },
+      "media": { "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Countries_initially_affected_in_WannaCry_ransomware_attack.png?width=800" },
       "start_date": { "year": 2017 },
       "text": {
         "headline": "2017: Era del Ransomware",
@@ -75,7 +75,7 @@
       }
     },
     {
-      "media": { "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Cloud_computing_icon.svg" },
+      "media": { "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Cloud_computing_icon.svg?width=800" },
       "start_date": { "year": 2020 },
       "text": {
         "headline": "2020: Pandemia y Seguridad Remota",
@@ -83,7 +83,7 @@
       }
     },
     {
-      "media": { "url": "https://commons.wikimedia.org/wiki/Special:FilePath/ChatGPT_logo.svg" },
+      "media": { "url": "https://commons.wikimedia.org/wiki/Special:FilePath/ChatGPT_logo.svg?width=800" },
       "start_date": { "year": 2023 },
       "text": {
         "headline": "2023: IA en Ciberseguridad",
