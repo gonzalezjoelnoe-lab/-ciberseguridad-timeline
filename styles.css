@@ -564,3 +564,31 @@ section {
         padding: 20px;
     }
 }
+.cta-button-wrapper {
+    text-align: center;
+    margin-top: 50px;
+}
+
+.cta-main-button {
+    display: inline-flex;
+    align-items: center;
+    gap: 12px;
+    background: linear-gradient(135deg, var(--primary-color), var(--secondary-color));
+    color: white;
+    text-decoration: none;
+    padding: 18px 40px;
+    border-radius: 50px;
+    font-size: 1.1em;
+    font-weight: 600;
+    box-shadow: var(--shadow);
+    transition: var(--transition);
+}
+
+.cta-main-button i {
+    font-size: 1.2em;
+}
+
+.cta-main-button:hover {
+    transform: translateY(-5px) scale(1.03);
+    box-shadow: var(--shadow-hover);
+}
