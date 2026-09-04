@@ -180,11 +180,127 @@
         </section>
 
     </main>
+       <!-- SECCIÓN CONTADOR DE VISITAS -->
+    <section class="visit-counter-section">
+        <div class="counter-container">
+            <div class="counter-content">
+                <h3>¿Te Gustó esta Actividad?</h3>
+                <p>¡Haz clic para registrar tu visita y apoyar este proyecto!</p>
+                
+                <button class="visit-button" id="visitBtn">
+                    <i class="fas fa-heart"></i>
+                    <span class="visit-count" id="visitCount">0</span>
+                    <span class="visit-text">Personas visitaron</span>
+                </button>
+
+                <div class="counter-stats">
+                    <p class="visit-date" id="lastVisit">Primera visita hoy</p>
+                </div>
+            </div>
+            <div class="counter-decoration">
+                <div class="decoration-circle"></div>
+                <div class="decoration-circle"></div>
+                <div class="decoration-circle"></div>
+            </div>
+        </div>
+    </section>
 
     <footer class="footer-protocol">
         <p>Guía de Protección Digital — Instituto Tecnológico Valle del Guadiana</p>
         <a href="index.html"><i class="fas fa-arrow-left"></i> Volver a la línea del tiempo</a>
     </footer>
 
+    <script>
+          // ================================
+        // CONTADOR DE VISITAS AVANZADO
+        // ================================
+
+        const visitBtn = document.getElementById('visitBtn');
+        const visitCount = document.getElementById('visitCount');
+        const lastVisitElement = document.getElementById('lastVisit');
+
+        // Estructura de datos
+        class VisitCounter {
+            constructor() {
+                this.totalVisits = parseInt(localStorage.getItem('visitCount') || '0');
+                this.lastVisit = localStorage.getItem('lastVisitDate');
+                this.firstVisit = localStorage.getItem('firstVisitDate');
+            }
+
+            incrementar() {
+                this.totalVisits++;
+                this.lastVisit = new Date().toISOString();
+                
+                if (!this.firstVisit) {
+                    this.firstVisit = this.lastVisit;
+                    localStorage.setItem('firstVisitDate', this.firstVisit);
+                }
+                
+                this.guardar();
+            }
+
+            guardar() {
+                localStorage.setItem('visitCount', this.totalVisits.toString());
+                localStorage.setItem('lastVisitDate', this.lastVisit);
+            }
+
+            obtenerFormato(fecha) {
+                const date = new Date(fecha);
+                const options = { 
+                    year: 'numeric', 
+                    month: 'long', 
+                    day: 'numeric',
+                    hour: '2-digit',
+                    minute: '2-digit'
+                };
+                return date.toLocaleDateString('es-ES', options);
+            }
+
+            actualizar() {
+                visitCount.textContent = this.totalVisits;
+                if (this.lastVisit) {
+                    lastVisitElement.textContent = `Última visita: ${this.obtenerFormato(this.lastVisit)}`;
+                }
+            }
+        }
+
+        // Instanciar y cargar
+        const counter = new VisitCounter();
+        counter.actualizar();
+
+        // Event listener del botón
+        visitBtn.addEventListener('click', function() {
+            counter.incrementar();
+            counter.actualizar();
+            
+            // Animaciones
+            visitBtn.querySelector('i').style.animation = 'none';
+            setTimeout(() => {
+                visitBtn.querySelector('i').style.animation = 'heartbeat 0.6s ease-in-out';
+            }, 10);
+
+            visitCount.style.animation = 'none';
+            setTimeout(() => {
+                visitCount.style.animation = 'popIn 0.5s ease-out';
+            }, 10);
+
+            visitBtn.style.transform = 'scale(0.95)';
+            setTimeout(() => {
+                visitBtn.style.transform = '';
+            }, 200);
+        });
+
+        // Agregar ripple effect (ondas) al hacer clic
+        visitBtn.addEventListener('mouseenter', function() {
+            this.style.boxShadow = '0 20px 60px rgba(0, 0, 0, 0.3)';
+        });
+
+        visitBtn.addEventListener('mouseleave', function() {
+            this.style.boxShadow = '0 8px 32px rgba(0, 0, 0, 0.1)';
+        });
+
+
+
+    </script>
 </body>
 </html>
