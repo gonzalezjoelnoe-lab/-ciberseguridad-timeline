@@ -1,7 +1,7 @@
 {
   "title": {
     "media": {
-      "url": "https://commons.wikimedia.org/wiki/Special:FilePath/IBM_System360_Mainframe.jpg?width=800",
+      "url": "https://commons.wikimedia.org/wiki/File:IBM_System360_Mainframe.jpg",
       "caption": "Evolución de la Ciberseguridad"
     },
     "text": {
@@ -11,84 +11,54 @@
   },
   "events": [
     {
-      "media": { "url": "https://commons.wikimedia.org/wiki/Special:FilePath/A_sketch_of_the_ARPANET_in_December_1969.png?width=800" },
+      "media": { "url": "https://commons.wikimedia.org/wiki/File:A_sketch_of_the_ARPANET_in_December_1969.png" },
       "start_date": { "year": 1969 },
-      "text": {
-        "headline": "1969: Nacimiento de ARPANET",
-        "text": "Se establece la primera conexión entre computadoras en la Universidad de California. Nace la red que se convertiría en Internet. Comenzaría la era de la seguridad digital."
-      }
+      "text": { "headline": "1969: Nacimiento de ARPANET", "text": "Se establece la primera conexión entre computadoras en la Universidad de California. Nace la red que se convertiría en Internet." }
     },
     {
-      "media": { "url": "https://commons.wikimedia.org/wiki/Special:FilePath/DES-main-network.png?width=800" },
+      "media": { "url": "https://commons.wikimedia.org/wiki/File:DES-main-network.png" },
       "start_date": { "year": 1977 },
-      "text": {
-        "headline": "1977: Creación de DES",
-        "text": "Se adopta el Data Encryption Standard como estándar oficial de criptografía. Revolucionó la protección de datos y sentó bases para la criptografía moderna."
-      }
+      "text": { "headline": "1977: Creación de DES", "text": "Se adopta el Data Encryption Standard como estándar oficial de criptografía." }
     },
     {
-      "media": { "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Morris_Worm.jpg?width=800" },
+      "media": { "url": "https://commons.wikimedia.org/wiki/File:Morris_Worm.jpg" },
       "start_date": { "year": 1988 },
-      "text": {
-        "headline": "1988: Morris Worm - Primera Crisis",
-        "text": "El gusano Morris infecta más de 6,000 computadoras del ARPANET en solo horas. Primer ataque masivo de malware. Costo estimado: $100 millones."
-      }
+      "text": { "headline": "1988: Morris Worm - Primera Crisis", "text": "El gusano Morris infecta más de 6,000 computadoras del ARPANET en solo horas." }
     },
     {
-      "media": { "url": "https://commons.wikimedia.org/wiki/Special:FilePath/NCSA_Mosaic_Browser_Screenshot.png?width=800" },
+      "media": { "url": "https://commons.wikimedia.org/wiki/File:NCSA_Mosaic_Browser_Screenshot.png" },
       "start_date": { "year": 1991 },
-      "text": {
-        "headline": "1991: Tim Berners-Lee - World Wide Web",
-        "text": "Se lanza el navegador Mosaic. Comienza la era del comercio electrónico. Surge la necesidad urgente de cifrado en tránsito."
-      }
+      "text": { "headline": "1991: Tim Berners-Lee - World Wide Web", "text": "Se lanza el navegador Mosaic. Comienza la era del comercio electrónico." }
     },
     {
-      "media": { "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Padlock.svg?width=800" },
+      "media": { "url": "https://commons.wikimedia.org/wiki/File:Padlock.svg" },
       "start_date": { "year": 1995 },
-      "text": {
-        "headline": "1995: Adopción de SSL/TLS",
-        "text": "Netscape implementa SSL (Secure Sockets Layer). Permite transacciones seguras en línea. Amazon y eBay comienzan sus operaciones con cifrado."
-      }
+      "text": { "headline": "1995: Adopción de SSL/TLS", "text": "Netscape implementa SSL. Permite transacciones seguras en línea." }
     },
     {
-      "media": { "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Stachledraht_DDos_Attack.svg?width=800" },
+      "media": { "url": "https://commons.wikimedia.org/wiki/File:Stachledraht_DDos_Attack.svg" },
       "start_date": { "year": 2000 },
-      "text": {
-        "headline": "2000: Ataques DDoS Masivos",
-        "text": "Ataques contra Yahoo, Amazon y otros gigantes. Primeros ataques coordinados a escala masiva. Pérdidas de $1.7 billones."
-      }
+      "text": { "headline": "2000: Ataques DDoS Masivos", "text": "Ataques contra Yahoo, Amazon y otros gigantes. Pérdidas de $1.7 billones." }
     },
     {
-      "media": { "url": "https://commons.wikimedia.org/wiki/Special:FilePath/BalticServers_data_center.jpg?width=800" },
+      "media": { "url": "https://commons.wikimedia.org/wiki/File:BalticServers_data_center.jpg" },
       "start_date": { "year": 2011 },
-      "text": {
-        "headline": "2011: Era de Breaches Masivos",
-        "text": "Más de 100 millones de registros comprometidos en múltiples incidentes. Comienzan regulaciones como GDPR."
-      }
+      "text": { "headline": "2011: Era de Breaches Masivos", "text": "Más de 100 millones de registros comprometidos en múltiples incidentes." }
     },
     {
-      "media": { "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Countries_initially_affected_in_WannaCry_ransomware_attack.png?width=800" },
+      "media": { "url": "https://commons.wikimedia.org/wiki/File:Countries_initially_affected_in_WannaCry_ransomware_attack.png" },
       "start_date": { "year": 2017 },
-      "text": {
-        "headline": "2017: Era del Ransomware",
-        "text": "Ataque WannaCry infecta 200,000 computadoras en 150 países. Afecta hospitales y gobiernos. Pérdidas estimadas en $4 billones."
-      }
+      "text": { "headline": "2017: Era del Ransomware", "text": "WannaCry infecta 200,000 computadoras en 150 países. Pérdidas estimadas en $4 billones." }
     },
     {
-      "media": { "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Cloud_computing_icon.svg?width=800" },
+      "media": { "url": "https://commons.wikimedia.org/wiki/File:Cloud_computing_icon.svg" },
       "start_date": { "year": 2020 },
-      "text": {
-        "headline": "2020: Pandemia y Seguridad Remota",
-        "text": "Cambio abrupto al trabajo remoto global. Explosión de ataques a infraestructuras VPN. Presupuestos se duplican."
-      }
+      "text": { "headline": "2020: Pandemia y Seguridad Remota", "text": "Cambio abrupto al trabajo remoto global. Explosión de ataques a infraestructuras VPN." }
     },
     {
-      "media": { "url": "https://commons.wikimedia.org/wiki/Special:FilePath/ChatGPT_logo.svg?width=800" },
+      "media": { "url": "https://commons.wikimedia.org/wiki/File:ChatGPT_logo.svg" },
       "start_date": { "year": 2023 },
-      "text": {
-        "headline": "2023: IA en Ciberseguridad",
-        "text": "Inteligencia Artificial transforma ofensa y defensa. Modelos de IA se usan para crear malware sofisticado, pero también para detectar anomalías."
-      }
+      "text": { "headline": "2023: IA en Ciberseguridad", "text": "Modelos de IA se usan para crear malware sofisticado, pero también para detectar anomalías." }
     }
   ]
 }
