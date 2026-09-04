@@ -59,6 +59,11 @@
       "media": { "url": "https://commons.wikimedia.org/wiki/File:ChatGPT_logo.svg" },
       "start_date": { "year": 2023 },
       "text": { "headline": "2023: IA en Ciberseguridad", "text": "Modelos de IA se usan para crear malware sofisticado, pero también para detectar anomalías." }
+    },
+    {
+      "media": { "url": "https://commons.wikimedia.org/wiki/File:Anonymous.jpg" },
+      "start_date": { "year": 2007 },
+      "text": { "headline": "2007: El nacimiento de Anonymous", "text": "Anonymous, el grupo hacktivista más popular debutó en el tablón de anuncios basado en imágenes 4chan. Anonymous es un colectivo hacktivista internacional descentralizado que lleva a cabo ciberataques como un medio para llamar la atención sobre sus puntos de vista políticos y exponer objetivos de alto perfil." }
     }
   ]
 }
